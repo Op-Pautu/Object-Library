@@ -7,12 +7,22 @@ function Book(title, author, pages, status) {
   this.pages = pages;
   this.status = status;
   this.info = function() {
-    return `${this.title} by ${this.author}, ${this.pages}, ${status}`
+    return `${title} by ${author}, ${pages}, ${status}`
   }
 }
 
-
+ // Adding a new book to the array
 function addBookToLibrary() {
   // do stuff here
 
 }
+
+// const addBook = document.querySelector('.add-book');
+
+// addBook.addEventListener("mouseover", function () {
+//   this.style.backgroundColor = 'grey';
+// } )
+
+// addBook.addEventListener("mouseout", function () {
+//   this.style.backgroundColor = 'rgba(97, 95, 95, 0.144)';
+// } )

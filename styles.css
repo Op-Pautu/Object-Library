@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+header button {
+   height: fit-content;
+   width: 70px;
+   padding: 5px;
+}
+
+/* main {
+    background-color:  rgba(245, 245, 245, 0.589) ;
+} */
+.adder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+} 
+.add-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgba(97, 95, 95, 0.144);  
+    border: 1px solid rgba(82, 67, 67, 0.144);
+    border-radius: 8px;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    width: 150px;
+
+}
+
+main img {
+    height: 24px;
+    width: 30px;
+}
+
+.book-section {
+    /* margin-top: 50px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.book-section > div {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    padding: 15px 0;
+
+}
+
+.book-section div:nth-child(n+4) {
+  margin-top: 50px;
+}
